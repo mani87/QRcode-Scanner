@@ -38,6 +38,7 @@ public class VolleyRequestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_volley_request);
         mQrScan = new IntentIntegrator(this);
+        mQrScan.setOrientationLocked(false);
         mQrScan.initiateScan();
 
         if (getIntent().getExtras() != null) {
