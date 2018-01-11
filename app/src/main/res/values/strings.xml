@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">Scanner</string>
     <string name="welcome_kit">Welcome Kit</string>
-    <string name="hall1">Hall 1</string>
-    <string name="hall2">Hall 2</string>
-    <string name="hall3">Hall 3</string>
-    <string name="hall4">Hall 4</string>
-    <string name="hall5">Hall 5</string>
+    <string name="hall_number">Hall Number</string>
+    <string name="hall1">Hall Number 1</string>
+    <string name="hall2">Hall Number 2</string>
+    <string name="hall3">Hall Number 3</string>
+    <string name="hall4">Hall Number 4</string>
+    <string name="hall5">Hall Number 5</string>
     <string name="enter">Enter</string>
     <string name="exit">Exit</string>
     <string name="day1">Day 1</string>

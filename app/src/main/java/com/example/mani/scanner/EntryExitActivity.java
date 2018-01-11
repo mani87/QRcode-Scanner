@@ -39,7 +39,7 @@ public class EntryExitActivity extends AppCompatActivity implements View.OnClick
                 break;
             case R.id.btn_exit:
                 Intent exitIntent = new Intent(this, VolleyRequestActivity.class);
-                exitIntent.putExtra("scanType", Data + "exit");
+                exitIntent.putExtra("scanType", Data + "Exit");
                 startActivity(exitIntent);
                 break;
             case R.id.btn_bulkExit:
