@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="5dp"
     android:orientation="vertical">
 
     <Button
@@ -10,7 +11,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="Welcome kit"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btn_hall_number"
@@ -18,7 +20,8 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="Hall number"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btn_lunch"
@@ -26,6 +29,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:text="Lunch"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
 </LinearLayout>
