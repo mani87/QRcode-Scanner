@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Welcome kit"
+        android:text="@string/welcome_kit"
         android:textSize="25sp"
         android:textStyle="bold" />
 
@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Hall number"
+        android:text="@string/hall_number"
         android:textSize="25sp"
         android:textStyle="bold" />
 
@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Lunch"
+        android:text="@string/lunch"
         android:textSize="25sp"
         android:textStyle="bold" />
 

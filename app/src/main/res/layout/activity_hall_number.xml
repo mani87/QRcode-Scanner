@@ -2,15 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_margin="5dp">
+    android:layout_margin="5dp"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/btn_hall1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Hall number 1"
+        android:text="@string/hall1"
         android:textSize="18sp" />
 
     <Button
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Hall number 2"
+        android:text="@string/hall2"
         android:textSize="18sp" />
 
     <Button
@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="hall number 3"
+        android:text="@string/hall3"
         android:textSize="18sp" />
 
     <Button
@@ -34,7 +34,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="hall number 4"
+        android:text="@string/hall4"
         android:textSize="18sp" />
 
     <Button
@@ -42,6 +42,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Hall number 5"
+        android:text="@string/hall5"
         android:textSize="18sp" />
 </LinearLayout>

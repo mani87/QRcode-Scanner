@@ -2,15 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_margin="5dp">
+    android:layout_margin="5dp"
+    android:orientation="vertical">
 
     <Button
         android:id="@+id/btn_enter"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Enter"
+        android:text="@string/enter"
         android:textSize="30sp" />
 
     <Button
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="exit"
+        android:text="@string/exit"
         android:textSize="30sp" />
 
     <Button
@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Bulk Exit"
+        android:text="@string/bulk_exit"
         android:textSize="30sp" />
 
 </LinearLayout>
