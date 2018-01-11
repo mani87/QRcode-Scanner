@@ -4,28 +4,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+
     <Button
-        android:id="@+id/btn_welcome_kit"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Welcome kit"
-        android:textSize="25sp" />
+        android:text="Day1"
+        android:textSize="27sp" />
 
     <Button
-        android:id="@+id/btn_hall_number"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Hall number"
-        android:textSize="25sp" />
+        android:text="Day2"
+        android:textSize="27sp" />
 
     <Button
-        android:id="@+id/btn_lunch"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Lunch"
-        android:textSize="25sp" />
-
+        android:text="Day3"
+        android:textSize="27sp" />
 </LinearLayout>
