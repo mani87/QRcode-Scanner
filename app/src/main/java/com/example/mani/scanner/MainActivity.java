@@ -36,12 +36,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intent = new Intent(mContext, VolleyRequestActivity.class);
                 intent.putExtra("scanType", WELCOME_KIT);
                 startActivity(intent);
+                break;
             case R.id.btn_hall_number:
                 Intent hallNumberIntent = new Intent(mContext, HallNumberActivity.class);
                 startActivity(hallNumberIntent);
+                break;
             case R.id.btn_lunch:
-                Intent lunchDays = new Intent(MainActivity.this, LunchDaysActivity.class);
+                Intent lunchDays = new Intent(mContext, LunchDaysActivity.class);
                 startActivity(lunchDays);
+                break;
 
         }
 
