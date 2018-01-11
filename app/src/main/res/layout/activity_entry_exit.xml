@@ -4,28 +4,28 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
     <Button
-        android:id="@+id/btn_lunch_day1"
+        android:id="@+id/btn_enter"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Day1"
-        android:textSize="27sp" />
+        android:text="Enter"
+        android:textSize="30sp" />
 
     <Button
-        android:id="@+id/btn_lunch_day2"
+        android:id="@+id/btn_exit"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Day2"
-        android:textSize="27sp" />
+        android:text="exit"
+        android:textSize="30sp" />
 
     <Button
-        android:id="@+id/btn_lunch_day3"
+        android:id="@+id/btn_bulkExit"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="Day3"
-        android:textSize="27sp" />
+        android:text="Bulk Exit"
+        android:textSize="30sp" />
+
 </LinearLayout>
