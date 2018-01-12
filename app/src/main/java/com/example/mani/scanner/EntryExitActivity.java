@@ -10,7 +10,9 @@ import android.widget.Toast;
 
 public class EntryExitActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private String Data,Title;
+    private String Data, Title;
+    private String EXIT = "Exit";
+    private String ENTER = "Entry";
     private Button mEnter, mExit, mBulkExit;
 
     @Override
@@ -38,12 +40,12 @@ public class EntryExitActivity extends AppCompatActivity implements View.OnClick
         switch (view.getId()) {
             case R.id.btn_enter:
                 Intent entryIntent = new Intent(this, VolleyRequestActivity.class);
-                entryIntent.putExtra("scanType", Data + "Entry");
+                entryIntent.putExtra("scanType", Data + ENTER);
                 startActivity(entryIntent);
                 break;
             case R.id.btn_exit:
                 Intent exitIntent = new Intent(this, VolleyRequestActivity.class);
-                exitIntent.putExtra("scanType", Data + "Exit");
+                exitIntent.putExtra("scanType", Data + EXIT);
                 startActivity(exitIntent);
                 break;
             case R.id.btn_bulkExit:

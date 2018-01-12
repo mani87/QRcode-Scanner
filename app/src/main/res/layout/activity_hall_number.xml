@@ -2,46 +2,57 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="5dp"
+    android:background="#FFECB3"
     android:orientation="vertical">
 
     <Button
         android:id="@+id/btn_hall1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="2dp"
         android:layout_weight="1"
+        android:background="#FFE082"
         android:text="@string/hall1"
-        android:textSize="18sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btn_hall2"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="2dp"
         android:layout_weight="1"
+        android:background="#FFD54F"
         android:text="@string/hall2"
-        android:textSize="18sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btn_hall3"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="2dp"
         android:layout_weight="1"
+        android:background="#FFCA28"
         android:text="@string/hall3"
-        android:textSize="18sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btn_hall4"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="2dp"
         android:layout_weight="1"
+        android:background="#FFC107"
         android:text="@string/hall4"
-        android:textSize="18sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btn_hall5"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_marginBottom="5dp"
         android:layout_weight="1"
+        android:background="#FFB300"
         android:text="@string/hall5"
-        android:textSize="18sp" />
+        android:textSize="20sp" />
 </LinearLayout>
