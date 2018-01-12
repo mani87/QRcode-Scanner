@@ -1,6 +1,7 @@
 package com.example.mani.scanner;
 
 import android.content.Intent;
+import android.service.quicksettings.Tile;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +10,7 @@ import android.widget.Toast;
 
 public class EntryExitActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private String Data;
+    private String Data,Title;
     private Button mEnter, mExit, mBulkExit;
 
     @Override
@@ -26,6 +27,9 @@ public class EntryExitActivity extends AppCompatActivity implements View.OnClick
         mBulkExit.setOnClickListener(this);
 
         Data = getIntent().getExtras().getString("hallNumber");
+        Title = Data.toUpperCase();
+        setTitle(Title);
+
 
     }
 
